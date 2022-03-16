@@ -23,15 +23,20 @@ const createDish = asyncHandler(async (req,res) => {
 
     const dish = await Dish.create({
 
+        id: req.body.id,
         name: req.body.name,
-        description: req.body.description
+        description: req.body.description,
+        ingredients: req.body.ingredients,
+        tags: req.body.tags,
+        allergens: req.body.allergens,
+        image: req.body.image,
         
     })
 
     
     res.status(200).json(dish);
 
-}) 
+}); 
 
 // @desc Update Dish
 //@route  PUT /api/dishes/:id

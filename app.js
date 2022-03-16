@@ -16,6 +16,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 app.use("/api/dishes", require('./routes/dishRoutes'))
+app.use("/api/drinks", require('./routes/drinkRoutes'))
 
 
 
