@@ -7,7 +7,7 @@
         "tags" : ["Pinot Noir", "Margarita", "Chardonnay"],
         "ingredients": ["Grilled Chicken","Romaine Lettuce","Ceasear Dressing", "Croutons"],
         "image": "/static/img/cesar-salad.jpg",
-        "url": "chicken-cesar-salad"
+        "allergens":["gluten","dairy","poultry"]
         
 
     },
@@ -18,8 +18,7 @@
         "description": "Red Snapper crusted with cornmeal and served with cole slaw and french fries",
         "tags": ["Sav Blanc", "Rum", "Margarita"],
         "ingredients":["Red Snapper","French Fries","Cole Slaw"],
-        "image": "/static/img/fish-and-chips.jpg",
-        "url": "fish-and-chips"
+        "allergens":["seafood","dairy"]
     },
 
     {
@@ -28,8 +27,7 @@
         "description": "Two 4oz Patties with white cheddar cheese on potato roll served with french fries",
         "tags": ["Cabernet", "Beer", "Prosecco"],
         "ingredients": ["Angus Beef","Potato Roll","LTOP","French Fries", "Garlic Aioli"],
-        "image": "/static/img/smash-burger.jpg",
-        "url": "smash-burger"
+        "allergens":["gluten","beef"]
     }
 
 
